@@ -1,27 +1,38 @@
-print("=" * 50)
-print("🎬 AI MOVIE RECOMMENDATION SYSTEM 🎬")
-print("=" * 50)
+print("=" * 60)
+print("🎯 RECOMMENDATION SYSTEM")
+print("=" * 60)
 
-# Movie database
-movies = {
-    "action": ["Avengers", "Batman", "John Wick"],
-    "comedy": ["Mr Bean", "The Mask", "Friends"],
-    "horror": ["Conjuring", "Insidious", "Annabelle"],
-    "romance": ["Titanic", "Notebook", "La La Land"],
-    "sci-fi": ["Interstellar", "Inception", "Avatar"]
-}
+movies = [
+    {"name": "Avengers", "action": 5, "comedy": 2, "sci_fi": 4},
+    {"name": "John Wick", "action": 5, "comedy": 1, "sci_fi": 1},
+    {"name": "Interstellar", "action": 2, "comedy": 1, "sci_fi": 5},
+    {"name": "Inception", "action": 4, "comedy": 1, "sci_fi": 5},
+    {"name": "The Mask", "action": 1, "comedy": 5, "sci_fi": 1},
+    {"name": "Mr Bean", "action": 1, "comedy": 5, "sci_fi": 1}
+]
 
-# Take user input
-user_choice = input(
-    "\nChoose a genre (action/comedy/horror/romance/sci-fi): "
-).lower()
+print("\nRate your interests from 1 to 5")
 
-# Recommendation logic
-if user_choice in movies:
-    print("\n🤖 Recommended Movies For You:\n")
+action = int(input("Action: "))
+comedy = int(input("Comedy: "))
+sci_fi = int(input("Sci-Fi: "))
 
-    for movie in movies[user_choice]:
-        print("🎥", movie)
+recommendations = []
 
-else:
-    print("\n❌ Sorry! Genre not found.")
+for movie in movies:
+    score = (
+        action * movie["action"] +
+        comedy * movie["comedy"] +
+        sci_fi * movie["sci_fi"]
+    )
+
+    recommendations.append((movie["name"], score))
+
+recommendations.sort(key=lambda x: x[1], reverse=True)
+
+print("\n🎬 Top Recommendations For You")
+
+for i in range(3):
+    print(f"{i+1}. {recommendations[i][0]}")
+
+print("\n🤖 Recommendation Generated Successfully!")
