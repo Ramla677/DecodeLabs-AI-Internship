@@ -55,15 +55,16 @@ python chatbot.py
 
 Welcome Screen
 
-"Welcome" (welcome.jpeg)
+![Welcome](welcome.jpeg)
 
 Features Menu
 
-"Features" (features.jpeg)
+![Features](features.jpeg)
+
 
 Mood Check-In
 
-"Mood Check-In" (mood_checkin.jpeg)
+![Mood Check-In](mood_checkin.jpeg)
 
 
 
