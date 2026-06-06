@@ -64,7 +64,7 @@ Features Menu
 
 Mood Check-In
 
-![Mood Check-In](mood_checkin.jpeg)
+![Mood_CheckIn](mood_checkin.jpeg)
 
 
 
