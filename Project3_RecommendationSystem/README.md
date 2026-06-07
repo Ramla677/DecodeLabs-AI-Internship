@@ -33,13 +33,11 @@ python recommendation.py
 
 📷 Screenshots
 
-User Input
+### User Input
+![User Input](./input.jpeg)
 
-"Input" (input.jpeg)
-
-Recommendation Result
-
-"Recommendation" (recommendation.jpeg)
+### Recommendation Result
+![Recommendation Result](./recommendation.jpeg)
 
 
 
