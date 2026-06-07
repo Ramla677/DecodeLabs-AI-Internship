@@ -62,7 +62,7 @@ Features Menu
 ![Features](features.jpeg)
 
 
-Mood Check-In
+Mood CheckIn
 
 ![Mood_CheckIn](mood_checkin.jpeg)
 
