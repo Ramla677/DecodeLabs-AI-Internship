@@ -5,7 +5,6 @@
 This project is a Rule-Based Chatbot developed using Python. The chatbot interacts with users through predefined commands and provides useful responses. It can greet users, track moods, provide study tips, share fun facts, display motivational quotes, and maintain session statistics.
 
 
-
 ✨ Features
 
 - Personalized Greeting
@@ -50,8 +49,6 @@ python chatbot.py
 
 
 📷 Screenshots
-
-«Note: Replace the image file names below if your screenshots have different names.»
 
 Welcome Screen
 
