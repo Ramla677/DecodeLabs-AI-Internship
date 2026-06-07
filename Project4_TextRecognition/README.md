@@ -45,14 +45,13 @@ python ocr_project.py
 
 📷 Screenshots
 
-## Image Input
+## Input Screenshot
 
-![Input](sample.png)
+![Input](input.jpeg)
 
-## Extracted Text Output
+## Output Screenshot
 
 ![Output](output.jpeg)
-
 
 
 🎯 Learning Outcomes
